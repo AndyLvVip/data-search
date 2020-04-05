@@ -3,3 +3,10 @@ spring:
     elasticsearch:
       cluster-name: docker-cluster
       cluster-nodes: 127.0.0.1:9300
+  application:
+    name: data-search
+logstash:
+  destination: 127.0.0.1:4567
+logging:
+  level:
+    root: debug
